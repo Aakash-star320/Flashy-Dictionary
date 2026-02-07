@@ -1,0 +1,23 @@
+body{
+width:400px;
+background:#1c1c24;
+color:white;
+min-height:700px;
+max-height:100%;
+height:auto;
+}
+.well{
+  font-size:20px;
+}
+
+.img-fluid{
+  float:right;
+}
+
+#button-addon3{
+  display:none;
+}
+
+#button-addon3:active{
+  display:block;
+}

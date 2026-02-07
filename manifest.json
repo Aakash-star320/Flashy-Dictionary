@@ -1,0 +1,33 @@
+{
+"name":"Flashy Dictionary",
+"description":"Stumbled across a difficult word?Just highlight and double click it to view it's meaning in a box",
+"version":"1.0",
+"author":"Aakash Singh",
+"manifest_version":3,
+"permissions":["tabs","activeTab","bookmarks"
+],
+
+
+"action":{
+  "default_title": "Click Me",
+      "default_popup": "popup.html"
+
+},
+
+
+
+
+
+
+  "content_scripts":[
+    {
+     "matches": ["<all_urls>"],
+
+      "js":["extension.js"]
+
+
+
+    }
+  ]
+
+}
